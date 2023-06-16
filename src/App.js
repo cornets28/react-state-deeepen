@@ -4,7 +4,8 @@ import UseStateHook from './UseStateHook';
 import UseReducerHook from './UseReducerHook';
 import UseEffectHook from './UseEffectHook';
 import UseRefHook from './UseRefHook';
-import UseLayyoutEffectHook from './UseLayyoutEffectHook';
+import UseLayoutEffectHook from './UseLayoutEffectHook';
+import UseImperativeHandleHook from './UseImperativeHandleHook';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <UseReducerHook /> */}
       {/* <UseEffectHook /> */}
       {/* <UseRefHook /> */}
-      <UseLayyoutEffectHook />
+      {/* <UseLayoutEffectHook /> */}
+      <UseImperativeHandleHook />
     </div>
   );
 }
