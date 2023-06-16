@@ -7,7 +7,8 @@ import UseRefHook from './useRef/UseRefHook';
 import UseLayoutEffectHook from './useLayoutEffect/UseLayoutEffectHook';
 import UseImperativeHandleHook from './useImperativeHandle/UseImperativeHandleHook';
 import UseContextHook from './useContext/UseContextHook';
-import UseMemoHook from './useMemo/useMemoHook'
+// import UseMemoHook from './useMemo/useMemoHook'
+import UseCallback from "./useCallback/UseCallback";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <UseLayoutEffectHook /> */}
       {/* <UseImperativeHandleHook /> */}
       {/* <UseContextHook /> */}
-      <UseMemoHook />
+      {/* <UseMemoHook /> */}
+      <UseCallback />
     </div>
   );
 }
