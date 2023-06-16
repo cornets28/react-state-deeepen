@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import UseStateHook from './useState/UseStateHook';
-import UseReducerHook from './UseReducerHook';
+import UseReducerHook from './useReducer/UseReducerHook';
 import UseEffectHook from './useEffect/UseEffectHook';
-import UseRefHook from './UseRefHook';
-import UseLayoutEffectHook from './UseLayoutEffectHook';
+import UseRefHook from './useRef/UseRefHook';
+import UseLayoutEffectHook from './useLayoutEffect/UseLayoutEffectHook';
 import UseImperativeHandleHook from './useImperativeHandle/UseImperativeHandleHook';
 import UseContextHook from './useContext/UseContextHook';
 
