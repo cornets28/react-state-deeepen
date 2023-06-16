@@ -1,4 +1,3 @@
-import { type } from "@testing-library/user-event/dist/type";
 import React, { useReducer } from "react";
 
 
@@ -32,7 +31,7 @@ const UseReducerHook = () => {
                 {state.showText && <p>I am here</p>}
             </h1>
 
-        </div >
+        </div>
     )
 }
 
