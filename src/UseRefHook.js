@@ -1,8 +1,5 @@
 import React, { useRef } from "react";
 
-
-
-
 const UseRefHook = () => {
     // const [state, dispatch] = useReducer(reducerFunc, { counterBy4: 0, showText: true })
     const inputRef = useRef()
